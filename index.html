@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZenXbyte - Coming Soon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Background animation */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #0f172a, #1e293b, #0f172a);
+      background-size: 200% 200%;
+      animation: moveBackground 10s ease infinite;
+    }
+
+    @keyframes moveBackground {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Optional: Smooth font appearance */
+    * {
+      font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen text-white font-sans">
+  <div class="text-center px-4">
+    <h1 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-6">ZenXbyte</h1>
+    <h2 class="text-4xl md:text-5xl font-bold text-gray-300 mb-4 animate-pulse">Coming Soon</h2>
+    <p class="text-lg text-gray-400 mb-10">We're working on something amazing. Stay tuned.</p>
+    
+    <div class="text-sm text-gray-500">Contact us at:</div>
+    <a href="mailto:info@zenxbyte.org" class="text-blue-400 hover:underline text-sm">info@zenxbyte.org</a>
+
+    <footer class="mt-16 text-xs text-gray-600">
+      &copy; 2025 ZenXbyte. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
